@@ -1,0 +1,72 @@
+/* src/Delete.css */
+.delete-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6ccd4;
+  }
+  
+  .delete-account-box {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #f2f2f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f2f2f3;
+  }
+  
+  .delete-account-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .delete-button, .cancel-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button.confirm-delete {
+    background-color: #c0392b;
+  }
+  
+  .cancel-button {
+    background-color: #3498db;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .cancel-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .message, .warning-message {
+    margin-top: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .back-to-login {
+    margin-top: 20px;
+  }
+  
+  .back-to-login a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  

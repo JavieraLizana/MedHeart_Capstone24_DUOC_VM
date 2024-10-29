@@ -1,0 +1,180 @@
+/* Contenedor principal */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #a1b4cf);
+  padding: 20px;
+}
+
+/* Estilos para el logo */
+.login-logo img {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+/* Caja de inicio de sesión */
+.login-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px; /* Ajuste para aumentar el relleno interno */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.8rem; /* Ajuste de tamaño de fuente */
+  margin-bottom: 25px; /* Ajuste de márgenes */
+  color: #333;
+}
+
+/* Estilos para los botones de pestaña (Registrate / Iniciar Sesión) */
+.login-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Espaciado uniforme entre los botones */
+  margin-bottom: 25px; /* Ajuste de márgenes */
+}
+
+.login-tabs button {
+  background-color: #d1d5db;
+  border: none;
+  padding: 12px 25px; /* Ajuste de tamaño de los botones */
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 10px; /* Espaciado entre los botones */
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.active-tab {
+  background-color: #3b4c67;
+  color: white;
+}
+
+.login-tabs button:hover {
+  background-color: #a3afc1;
+}
+
+/* Estilos para los campos de entrada */
+.input-field {
+  width: 100%;
+  padding: 12px; /* Más espacio interior */
+  margin: 12px 0; /* Ajuste de márgenes entre campos */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #3b4c67;
+  outline: none;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-button {
+  background-color: #30425e;
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 15px 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #526c97;
+}
+
+/* Enlace de contraseña olvidada */
+.forgot-password {
+  margin: 15px 0;
+}
+
+.forgot-password a {
+  color: #6179a1;
+  font-size: 0.95rem; /* Ajuste del tamaño de fuente */
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+footer p {
+  text-align: center;
+}
+
+.google-login-button {
+  background-color: #30425e;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.google-login-button:hover {
+  background-color: #526c97;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* Contenedor para el campo de contraseña y el ícono de ojo */
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #3b4c67;
+  outline: none;
+}
+
+/* Estilos para el ícono de mostrar/ocultar contraseña */
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+}

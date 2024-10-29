@@ -1,0 +1,70 @@
+/* Contenedor del Chatbot */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Ventana del chat */
+.chat-window {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+}
+
+/* Área de mensajes */
+.chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+/* Mensajes del usuario y del asistente */
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Mensaje del usuario */
+.message.user {
+  background-color: #e0f7fa;
+  text-align: right;
+
+}
+
+/* Mensaje del asistente */
+.message.assistant {
+  background-color: #d1c4e9;
+  text-align: left;
+}
+
+/* Área de texto */
+textarea {
+  width: calc(100% - 10px);
+  height: 50px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  resize: none;
+}
+
+/* Botón de envío */
+button {
+  background-color: #3b4c67;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
